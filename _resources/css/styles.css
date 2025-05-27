@@ -1,0 +1,104 @@
+/**
+ * CSS \\ ADMIN STYLES
+ *
+ * @link    https://github.com/adkvolks/adk-redirects
+ * @package adk-redirects
+ */
+
+/* ==================================================================================================== */
+/* Hide Permalink URL */
+/* ==================================================================================================== */
+.post-type-adk-redirects #titlediv > .inside {
+    display: none;
+}
+
+
+/* ==================================================================================================== */
+/* MetaBox */
+/* ==================================================================================================== */
+.redirectsAdmin {
+    padding: 8px 0 10px 0;
+} 
+
+
+/* ================================================== */
+/* Row / Column */
+/* ================================================== */
+.redirectsAdmin .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.shrink-0 { flex-shrink: 0; }
+.shrink-1 { flex-shrink: 1; }
+.grow-0 { flex-grow: 0; }
+.grow-1 { flex-grow: 1; }
+
+
+/* ================================================== */
+/* Form Elements */
+/* ================================================== */
+.redirectsAdmin label {
+    display: block;
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.redirectsAdmin input, .redirectsAdmin select, .redirectsAdmin textarea {
+    width: 100%;
+    margin: 0 0 16px 0;
+    padding: 5px 10px;
+}
+
+.redirectsAdmin > fieldset:last-child > input {
+    margin-bottom: 0;
+}
+
+.redirectsAdmin select {
+    padding-right: 26px;
+}
+
+
+/* ================================================== */
+/* Settings Pages */
+/* ================================================== */
+.post-type-adk-redirects .form-table td { padding: 15px 0; }
+.post-type-adk-redirects .form-table th { display: none; }
+
+/* Additional Domains */
+.additionalDomainsRow{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+        
+.additionalDomainsRow label {
+    margin-right: 10px;
+    width: 80px;
+    display: inline-block;
+}
+
+.additionalDomainsRow input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.additionalDomainsRow .remove-url {
+    width: 102px;
+}
+
+
+/* ================================================== */
+/* 404 Table */
+/* ================================================== */
+.ADK-404-URL-SHORT { 
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;     /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) to indicate truncation */
+}
+
+.ADK-404-URL-LONG {
+    display: none;
+}
