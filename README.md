@@ -31,7 +31,7 @@ ADK \\ REDIRECTS integrates with the WordPress core via the template_redirect ac
 
 ## License
 
-ADK Redirects is open source and released under GNU General Public License v3.0. See [LICENSE](LICENSE.md) file for more information.
+ADK Redirects is open source and released under MIT License. See [LICENSE](LICENSE.md) file for more information.
 
 ## About the Author
 
