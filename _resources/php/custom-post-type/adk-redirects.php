@@ -13,7 +13,7 @@ namespace ADK\REDIRECTS;
 add_action("init", function() {
     $args = array(
         "labels" => array(
-            "name"                  => __("ADK \\\\ REDIRECTS", TEXTDOMAIN),
+            "name"                  => __(TITLE, TEXTDOMAIN),
 		    "singular_name"         => __("Redirect", TEXTDOMAIN),
 		    "menu_name"             => __("Redirects", TEXTDOMAIN),
 		    "name_admin_bar"        => __("Redirect", TEXTDOMAIN),

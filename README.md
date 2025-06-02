@@ -1,6 +1,6 @@
-# ADK \\ REDIRECTS
+# Adk Redirects
 
-ADK \\ REDIRECTS is a streamlined WordPress plugin engineered to provide website administrators with robust control over URL redirection. This plugin facilitates the creation and management of permanent 301 redirects, essential for maintaining search engine rankings and ensuring a seamless user experience during site migrations, content updates, or URL structure changes.
+Adk Redirects is a streamlined WordPress plugin engineered to provide website administrators with robust control over URL redirection. This plugin facilitates the creation and management of permanent 301 redirects, essential for maintaining search engine rankings and ensuring a seamless user experience during site migrations, content updates, or URL structure changes.
 
 The plugin introduces a dedicated custom post type within the WordPress admin interface, offering an intuitive and familiar environment for managing redirect rules. Administrators can define source URLs and their corresponding destination URLs with precision.
 
@@ -13,7 +13,7 @@ The plugin introduces a dedicated custom post type within the WordPress admin in
 
 ## Technical Implementation:
 
-ADK \\ REDIRECTS integrates with the WordPress core via the template_redirect action hook. This allows for efficient interception of requests early in the WordPress loading process, ensuring redirects are handled before any page content is rendered. By operating on URLs that would otherwise lead to a 404 page, the plugin avoids unnecessary processing for valid existing content.
+Adk Redirects integrates with the WordPress core via the template_redirect action hook. This allows for efficient interception of requests early in the WordPress loading process, ensuring redirects are handled before any page content is rendered. By operating on URLs that would otherwise lead to a 404 page, the plugin avoids unnecessary processing for valid existing content.
 
 ## Use Cases:
 
@@ -31,9 +31,9 @@ ADK \\ REDIRECTS integrates with the WordPress core via the template_redirect ac
 
 ## License
 
-ADK Redirects is open source and released under MIT License. See [LICENSE](LICENSE.md) file for more information.
+Adk Redirects is open source and released under MIT License. See [LICENSE](LICENSE.md) file for more information.
 
 ## About the Author
 
-ADK Redirects is coded by [Jonathan Volks](https://jonathanvolks.com/). A marketing web developer who codes with simplicity in mind to build Marketing focused websites. Want to get in touch? [Visit my website](https://jonathanvolks.com/) to learn how to contact me.
+Adk Redirects is coded by [Jonathan Volks](https://jonathanvolks.com/). A marketing web developer who codes with simplicity in mind to build Marketing focused websites. Want to get in touch? [Visit my website](https://jonathanvolks.com/) to learn how to contact me.
 

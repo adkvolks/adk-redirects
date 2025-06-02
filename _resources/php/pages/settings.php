@@ -45,7 +45,7 @@ add_action("admin_init", function() {
 add_action("admin_menu", function() {
     add_submenu_page(
         "edit.php?post_type=adk-redirects",
-        __("ADK \\\\ REDIRECTS \\\\ SETTINGS", TEXTDOMAIN),
+        __(TITLE . " Settings", TEXTDOMAIN),
         __("Settings", TEXTDOMAIN),
         "manage_options",
         "adk-redirects-page-settings",
@@ -59,7 +59,7 @@ add_action("admin_menu", function() {
  */
 function page_settings() {
     printf("<div class='wrap'>");
-        printf("<h1>". __("ADK \\\\ REDIRECTS \\\\ SETTINGS", TEXTDOMAIN) ."</h1>");
+        printf("<h1>". __(TITLE . " Settings", TEXTDOMAIN) ."</h1>");
         printf("<form method='post' action='options.php'>");
             settings_fields("adk-redirect-settings-group");
             do_settings_sections("adk-redirects-page-settings");
