@@ -12,6 +12,7 @@
  * @package adk-redirects
  */
 namespace ADK\REDIRECTS;
+if(!defined("ABSPATH")) { exit; }
 
 // ====================================================================================================
 // Constants

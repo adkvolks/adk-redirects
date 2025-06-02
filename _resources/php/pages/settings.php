@@ -6,6 +6,7 @@
  * @package adk-redirects
  */
 namespace ADK\REDIRECTS;
+if(!defined("ABSPATH")) { exit; }
 
 // ====================================================================================================
 // Register Setting, Add Section and Field

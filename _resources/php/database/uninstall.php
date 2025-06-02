@@ -6,6 +6,7 @@
  * @package adk-redirects
  */
 namespace ADK\REDIRECTS;
+if(!defined("ABSPATH")) { exit; }
 
 // ====================================================================================================
 // When Plugin Uninstalled, Delete Table and Options

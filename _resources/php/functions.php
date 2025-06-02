@@ -6,6 +6,7 @@
  * @package adk-redirects
  */
 namespace ADK\REDIRECTS;
+if(!defined("ABSPATH")) { exit; }
 
 if(!function_exists("__string")) {
     /**
