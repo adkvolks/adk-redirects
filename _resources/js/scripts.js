@@ -1,29 +1,16 @@
 jQuery(document).ready(function ($) {
-    $('#add-new-url').on('click', function () {
-        var container = $('#additionalDomainsContainer');
-        var newIndex = container.find('.additionalDomainsRow').length;
-        var newRow = $('<div class="additionalDomainsRow">' +
+    $('#AdkRedirects-Add-URL').on('click', function () {
+        var container = $('#AdkRedirectsDomains');
+        var newIndex = container.find('.AdkRedirectsDomains__row').length;
+        var newRow = $('<div class="AdkRedirectsDomains__row">' +
             '<label for="website_url_' + newIndex + '">URL ' + (newIndex + 1) + ':</label> ' +
-            '<input type="text" id="website_url_' + newIndex + '" name="redirect_settings_website_urls[]" value="" class="regular-text"> ' +
-            '<button type="button" class="button remove-url">Remove</button>' +
+            '<input type="text" id="website_url_' + newIndex + '" name="adk-redirect-option-domains[]" value="" class="regular-text"> ' +
+            '<button type="button" class="button AdkRedirects-Remove-URL">Remove</button>' +
             '</div>');
         container.append(newRow);
     });
 
-    $(document).on('click', '.remove-url', function () {
-        $(this).closest('.additionalDomainsRow').remove();
+    $(document).on('click', '.AdkRedirects-Remove-URL', function () {
+        $(this).closest('.AdkRedirectsDomains__row').remove();
     });
-
-
-    // ====================================================================================================
-    // Display Long URL on 404 Report
-    // ====================================================================================================
-    if ($(".ADK-404-TOGGLE").length > 0) {
-        $(".ADK-404-TOGGLE").on("click", function (e) {
-            e.preventDefault();
-            const row = $(this).attr("href");
-            $(row).toggle();
-        });
-
-    }
 });
