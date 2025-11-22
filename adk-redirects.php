@@ -4,7 +4,7 @@
  * Description:       Adk Redirects is a streamlined WordPress plugin engineered to provide website administrators with robust control over URL redirection. This plugin facilitates the creation and management of permanent 301 redirects, essential for maintaining search engine rankings and ensuring a seamless user experience during site migrations, content updates, or URL structure changes.
  * Requires at least: 6.8.0
  * Requires PHP:      8.0
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Jonathan Volks
  * Text Domain:       adk-redirects 
  *
