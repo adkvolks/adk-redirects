@@ -51,7 +51,7 @@ add_action("admin_menu", function() {
         "manage_options",
         "adk-redirects-page-settings",
         "ADK\REDIRECTS\\page_settings",
-        'data:image/svg+xml;base64,' . base64_encode(ICON)
+        99
     );
 });
 
